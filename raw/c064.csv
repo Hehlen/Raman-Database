@@ -1,0 +1,42 @@
+index,value
+_chemical_name_mineral,KS4
+_chemical_compound_source,Synthesized
+composition base,mol
+number of compounds,2
+SiO2,80
+K2O,20
+,
+_publ_author_name,"Le Losq, C.;Mysen, B. O.;Cody G. D."
+_publ_section_title,"Water and magmas: insights about the water solution mechanisms in alkali silicate melts from infrared, Raman, and <sup>29</sup>Si solid-state NMR spectroscopies"
+_journal_name_full,Progress in Earth and Planetary Sciences
+_journal_page_first,
+_journal_page_last,
+_journal_paper_doi,
+_journal_volume,2
+_journal_year,2015
+,
+_raman_measurement_device.location,"Geophysical Laboratory, CIW"
+_raman_measurement_device.company,Jasco
+_raman_measurement_device.model,NRS-3100
+_raman_measurement_device.optics_type,microscope
+_raman_measurement_device.microscope_system,dispersive
+_raman_measurement_device.microscope_objective_magnification,50
+_raman_measurement_device.microscope_numerical_aperture,
+_raman_measurement_device.excitation_laser_type,Solid State
+_raman_measurement_device.excitation_laser_wavelength,490.2
+_raman_measurement_device.configuration,Simple
+_raman_measurement_device.resolution,31.4
+_raman_measurement_device.power_on_sample,44.3
+_raman_measurement_device.direction_polarization,Z(XX)Z
+_raman_measurement_device.spot_size,0.8
+_raman_measurement_device.diffraction_grating,600
+_raman_measurement.environment,Air
+_raman_measurement.environment_details,
+_raman_measurement.temperature,300
+_raman_measurement.pressure,100
+_raman_measurement.background_subtraction,no
+_raman_measurement.background_subtraction_details,
+_raman_measurement.integration_time,120
+_raman_measurement.datetime_initiated,13/11/14
+_raman_measurement_device_calibration.id,1
+_raman_measurement_device_calibration.standard,Silicon_wafer
