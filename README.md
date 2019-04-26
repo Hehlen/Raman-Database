@@ -1,16 +1,14 @@
 # Raman-Database
 
-Converter of Raman spectroscopy data files in the format for submission to the Raman Open Database.
+Converter of Raman spectroscopy data files in the format for submission to the [Raman Open Database](http://solsa.crystallography.net/rod/).
 
 *! This is alpha stage and is not ready yet for production work !*
 
-The rod_converter.py code contains the main function.
-
-rod_tools.py contains some necessary tools.
+The rod_converter.py code contains the main function. rod_tools.py and chemistry.py contain some necessary tools.
 
 # Usage
 
-This code needs two folders. In the present form, raw spectra and a csv file containing the CIF information are contained in a folder like `./raw/`. Converted files will be outputed in the indicated output folder, like `./converted/`.
+See example of CIF file in the ./raw folder (in csv).
 
 Call as:
 ```
@@ -30,8 +28,9 @@ python3 rod_converter.py c064 ./raw/ ./converted/
 # Roadmap
 
 ## Short term (2 month)
-- [ ]Adding optional argument for spectra file extension
-- [ ]Adding optional argument for CIF file extension
+- [ ] The code waits for CIF files in .csv, but some spectra may also be in .csv, so we need to add some sort of safeguard there. Suggestions?
+- [ ] Adding optional argument for spectra file extension
+- [ ] Adding optional argument for CIF file extension
 
 ## Medium term (6 month)
 - [ ] PyPI packaging
