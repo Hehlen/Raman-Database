@@ -6,8 +6,8 @@ import rod_tools as rtl
 def main():
     # GET THE INPUT ARGUMENTS
     
-    path_in = sys.argv[1]
-    name = sys.argv[2]
+    name = sys.argv[1]
+    path_in = sys.argv[2]
     path_out = sys.argv[3]
     
     print("Treating CIF data name "+name)
@@ -15,8 +15,8 @@ def main():
     name_spectra = name+".txt"
     print("Spectra filename is "+name_spectra)
 
-    name_out = name+".rod"
-    print("ROD file will be outputed as "+path_out+name_out)
+    name_out = path_out+name+".rod"
+    print("ROD file will be outputed as "+name_out)
 
     info_file = pd.read_csv(path_in+name+".csv").set_index("index")
     

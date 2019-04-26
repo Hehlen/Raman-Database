@@ -17,20 +17,21 @@ Call as:
 python3 rod_converter.py arg1 arg2 arg3
 ```
 with:
-- arg1: path of spectra and CIF information file;
-- arg2: name of CIF information file;
-- arg3: output folder.
+- arg1: name of CIF information file without extension;
+- arg2: path of spectra and CIF information file (don't forget the / at the end);
+- arg3: output folder (don't forget the / at the end).
 
 An example of usage with the folders indicated above and a ROD converter file name 'c064.csv' will be:
 
 ```
-python3 rod_converter.py ./raw/ c064.txt
+python3 rod_converter.py c064 ./raw/ ./converted/
 ```
 
 # Roadmap
 
 ## Short term (2 month)
 - [ ]Adding optional argument for spectra file extension
+- [ ]Adding optional argument for CIF file extension
 
 ## Medium term (6 month)
 - [ ] PyPI packaging

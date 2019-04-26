@@ -42,7 +42,7 @@ _raman_measurement.background_subtraction                                       
 _raman_measurement.background_subtraction_details                               nan
 _raman_measurement.integration_time                                             120
 _raman_measurement.datetime_initiated                                           13/11/14
-_rod_data_source.file                                                           c064.txt
+_rod_data_source.file                                                           c064
 loop_
 _raman_spectrum.raman_shift
 _raman_spectrum.intensity
